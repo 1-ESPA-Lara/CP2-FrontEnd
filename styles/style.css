@@ -66,6 +66,8 @@ h6 {
   background-color: #fff;
   padding: 15px;
   margin: 20px;
+  border-left: solid 7px #6d1b1b;
+  border-radius: 10px;
 }
 
 strong {
