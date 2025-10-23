@@ -19,4 +19,17 @@ button:hover {
     transition: all 0.3s;
 }
 
+::selection{
+    color:aliceblue;
+    background-color: #6d1b1b;
+}
+
+input:focus{
+    outline: none; 
+    border: 2px solid #6d1b1b; 
+    background-color: #f8e6e6; 
+    box-shadow: 0 0 8px #6d1b1b; 
+    transition: 0.3s ease;
+}
+
 
