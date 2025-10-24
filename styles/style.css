@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   font-family: "Georgia", serif;
   background-color: #fff9db;
   color: #a12c32;
@@ -8,22 +9,6 @@ body {
 
 header {
   text-align: center;
-}
-
-a {
-  color:#a12c32;
-  border: 2px solid #a12c32;
-  border-radius: 5px;
-  text-decoration:none;
-  padding: 12px 24px;
-  font-weight: bold;
-}
-
-a:hover {
-  background-color: #a12c32;
-  border: none;
-  padding: 12px 24px;
-  color: #fff9db;
 }
 
 main {
@@ -91,6 +76,8 @@ figure {
 
 .lista {
   display: inline-block;
+  background-color: #6d1b1b;
+  color: #e2ddc8;
 }
 
 p {
@@ -100,3 +87,41 @@ p {
 .galeria {
   text-align: center;
 }
+
+.comprar {
+  display: block;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #6d1b1b; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.menu img {
+    display: block;
+    border: #e2ddc8;
+    border-radius: 5px;
+}
+
+.menu nav a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #6d1b1b;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e2ddc8;
+}
+
+
