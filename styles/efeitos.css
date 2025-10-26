@@ -33,9 +33,15 @@ input:focus{
 }
 
 .menu a:hover {
-    background-color: #6d1b1b;
-    color: #e2ddc8;
-    transform: scale(1.1);
+    background-color: #e2ddc8;
+    color: #6d1b1b;
 }
 
+.produto:hover {
+    transform: scale(1.03);
+}
 
+button:hover {
+    background-color: #e2ddc8;
+    color: #6d1b1b;
+}
