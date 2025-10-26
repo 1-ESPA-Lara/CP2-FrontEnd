@@ -33,3 +33,21 @@ input:focus{
 }
 
 
+a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px; 
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+a:hover {
+    background-color:red;
+}
+
+a:active {
+    color : #5e2129;
+    transform : scale(0.95);
+}
+
