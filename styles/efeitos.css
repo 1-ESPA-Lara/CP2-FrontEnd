@@ -1,8 +1,8 @@
-.introduction::first-letter{
-    font-size: 200%;     
-  font-weight: bold;  
+.introduction::first-letter{    
+   text-transform: uppercase;
+   font-size: x-large;
   color: #6d1b1b;      
-  float: left;         
+        
 }
 
 table tr:hover {
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    background-color:red;
+    background-color: #6d1b1b ;
 }
 
 a:active {
