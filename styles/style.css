@@ -82,6 +82,10 @@ figure {
   padding: 40px 100px;
 }
 
+.lista h2 {
+  color: #e2ddc8;
+}
+
 p {
   text-align: justify;
 }
@@ -126,9 +130,10 @@ header {
 }
 
 .produtos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;           
+    justify-content: flex-start;
 }
 
 .produto {
@@ -138,6 +143,8 @@ header {
     text-align: center;
     padding: 15px;
     transition: transform 0.3s;
+    flex: 1 1 250px;
+    max-width: 250px;
 }
 
 .produto img {
@@ -175,4 +182,28 @@ button {
 
 footer {
   text-align: center;
+}
+
+.harmonizacoes img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.Adega img {
+  border-radius: 10px;
+}
+
+.banner {
+  background: linear-gradient(90deg, #6d1b1b, #e2ddc8);
+  color: #fff;
+  padding: 50px 100px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 32px;
+  animation: moverBanner 5s infinite alternate ease-in-out;
 }
