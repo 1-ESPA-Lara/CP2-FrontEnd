@@ -1,8 +1,8 @@
 .introduction::first-letter{
     font-size: 200%;     
-  font-weight: bold;  
-  color: #6d1b1b;      
-  float: left;         
+    font-weight: bold;  
+    color: #6d1b1b;      
+    float: left;         
 }
 
 table tr:hover {
@@ -64,4 +64,8 @@ button:hover {
     transform: translateX(-50px);
     opacity: 0.5;
   }
+}
+
+.lista:hover {
+    transform: scale(1.03);
 }
