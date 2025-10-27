@@ -100,3 +100,16 @@ p {
 .galeria {
   text-align: center;
 }
+
+
+.texto{
+  color: #6d1b1b;
+  font-size: 20px;
+  text-align: center;
+}
+
+.titulo{
+  color: #4a2c2a;
+  text-align: center;
+  font-size: 25px;
+}
