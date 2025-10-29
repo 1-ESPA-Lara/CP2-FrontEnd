@@ -70,7 +70,7 @@ vinheria-agnello/
 
 ## Link para o site publicado
 
-Vinheria Agnello no GitHub Pages
+[Vinheria Agnello no GitHub Pages](https://1-espa-lara.github.io/CP2-FrontEnd/)
 
 ## Observações
 
