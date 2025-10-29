@@ -1,7 +1,7 @@
 # Vinheria Agnello
 ## Descrição do Projeto:
 
-Aplicação web desenvolvida como parte do primeiro checkpoint da disciplina Front-End Development na FIAP, orientada pelo professor Lucas Silva Borges de Souza.
+Aplicação web desenvolvida como parte do segundo checkpoint da disciplina Front-End Development na FIAP, orientada pelo professor Lucas Silva Borges de Souza.
 O sistema representa a presença digital de uma vinheria fictícia — a Vinheria Agnello — reunindo identidade visual sofisticada, design responsivo e boas práticas de desenvolvimento com HTML5 e CSS.
 
 A proposta consolidou conteúdos aprendidos em sala, explorando:
