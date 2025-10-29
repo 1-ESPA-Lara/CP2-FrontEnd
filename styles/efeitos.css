@@ -1,8 +1,8 @@
-.introduction::first-letter{
-    font-size: 200%;     
-    font-weight: bold;  
-    color: #6d1b1b;      
-    float: left;         
+.introduction::first-letter{    
+   text-transform: uppercase;
+   font-size: x-large;
+  color: #6d1b1b;      
+        
 }
 
 table tr:hover {
@@ -32,40 +32,22 @@ input:focus{
     transition: 0.3s ease;
 }
 
-.menu a:hover {
-    background-color: #e2ddc8;
-    color: #6d1b1b;
+
+a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 20px; 
+    font-weight: bold;
+    transition: 0.2s;
 }
 
-.produto:hover {
-    transform: scale(1.03);
+a:hover {
+    background-color: #6d1b1b ;
 }
 
-button:hover {
-    background-color: #e2ddc8;
-    color: #6d1b1b;
+a:active {
+    color : #5e2129;
+    transform : scale(0.95);
 }
 
-.harmonizacoes img:hover {
-  transform: scale(1.1) rotate(10deg) translateX(10px);    /* aumenta levemente ao passar o mouse */
-  cursor: pointer;
-}
-
-@keyframes moverBanner {
-  0% {
-    transform: translateX(-50px);
-    opacity: 0.5;
-  }
-  50% {
-    transform: translateX(50px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(-50px);
-    opacity: 0.5;
-  }
-}
-
-.lista:hover {
-    transform: scale(1.03);
-}
